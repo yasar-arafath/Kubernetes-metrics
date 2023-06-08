@@ -1,8 +1,3 @@
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/kube-metrics-reporter)](https://hub.docker.com/r/itzg/kube-metrics-reporter)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/itzg/kube-metrics-reporter)](https://github.com/itzg/kube-metrics-reporter/releases/latest)
-[![CircleCI](https://circleci.com/gh/itzg/kube-metrics-reporter.svg?style=svg)](https://circleci.com/gh/itzg/kube-metrics-reporter)
-
 Simple application that accesses the [Kubernetes metrics API](https://github.com/kubernetes/metrics) and reports pod-container metrics.
 
 The Metrics API is exposed by a deployed [Metrics Server](https://kubernetes.io/docs/tasks/debug-application-cluster/resource-metrics-pipeline/#metrics-server) which is included in most managed clusters. [It can also be deployed separately.](https://github.com/kubernetes-sigs/metrics-server).
